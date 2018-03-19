@@ -1,0 +1,9 @@
+$git init                初始化仓库
+$git add xxx.txt         添加提交文件
+$git commit -m "版本"    提交文件
+$git status              查看当前仓库状态
+$git diff                查看历史修改
+$git log                 查看历史记录
+$git reset --hard DEAD^  回到上一个版本，上上版本HEAD^^,100个版本HEAD·100
+$git reset --hard 版本号 回到指定版本
+$git reflog              查看历史命令
